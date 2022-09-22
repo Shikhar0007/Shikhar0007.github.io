@@ -1,324 +1,642 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html lang="en">
 
-<html>
-	<head>
-		<title>Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<link rel = "icon" href =  
-"images/favicon-32x32.png" 
-        type = "image/x-icon"> 
-	</head>
+<head>
+    <!--
+     - Roxy: Bootstrap template by GettTemplates.com
+     - https://gettemplates.co/roxy
+    -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Roxy by GetTemplates.co</title>
+    <meta name="description" content="Roxy">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<section id="homepage" >
-	<body class="homepage is-preload">
-		<div id="page-wrapper">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/select2/select2.min.css">
+    <link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/lightcase/lightcase.css">
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-			<!-- Header -->
-				<div id="header">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400|Work+Sans:300,400,700" rel="stylesheet">
 
-					<!-- Inner -->
-						<div class="inner">
-							<header>
-								<h2><a href="index.html" id="logo">Hi! I'm <strong>Shikhar,</strong></a>
-								An aspiring Data Analyst<br />
-								<strong>Welcome To my Portfolio.</strong></h2>
-								<hr />
-								<p><strong>"</strong><i>Turning your data into insights</i><strong>"</strong><i></p>
-							</header>
-							<footer>
-								<a href="#banner" class="button circled scrolly">Start</a>
-							</footer>
-						</div>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
-					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li><h3><a href="#homepage">Home</a></h3></li>
-								<li>
-									<h3><a href="#banner">Projects</a></h3>
-								
-			
-								</li>
-								<li><h3><a href="#banner">About Me</a></h3></li>
-								<li><h3><a href="#banner">My Blogs</a></h3></li>
-								<li><h3><a href="#banner">Contact Me</a></h3></li>
-							</ul>
-						</nav>
+    <!-- Modernizr JS for IE8 support of HTML5 elements and media queries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
 
-				</div>
-			</section> 
-			<section id="projects">
-			<!-- Banner -->
-				<section id="banner">
-					<header>
-						<h2>My Projects</h2>
-						<p>
-						Take a look at my recent work.
-						</p>
-					</header>
-				</section>
+</head>
+<body data-spy="scroll" data-target="#navbar" class="static-layout">
+	<nav id="header-navbar" class="navbar navbar-expand-lg py-4">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center text-white" href="/">
+            <h3 class="font-weight-bolder mb-0">ROXY</h3>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav-header" aria-controls="navbar-nav-header" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="lnr lnr-menu"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-nav-header">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a id="side-search-open" class="nav-link" href="#">
+                        <span class="lnr lnr-magnifier"></span>
+                    </a>
+                </li>
+                 <li class="nav-item only-desktop">
+                    <a class="nav-link" id="side-nav-open" href="#">
+                        <span class="lnr lnr-menu"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
-			<!-- Carousel -->
-				<section class="carousel">
-					
-					<div class="reel">
+<div id="side-nav" class="sidenav">
+	<a href="javascript:void(0)" id="side-nav-close">&times;</a>
+	
+	<div class="sidenav-content">
+		<p>
+			Kuncen WB1, Wirobrajan 10010, DIY
+		</p>
+		<p>
+			<span class="fs-16 primary-color">(+68) 120034509</span>
+		</p>
+		<p>info@yourdomain.com</p>
+	</div>
+</div><div id="side-search" class="sidenav">
+	<a href="javascript:void(0)" id="side-search-close">&times;</a>
+	<div class="sidenav-content">
+		<form action="">
 
-						<article>
-							<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
-							<header>
-								<h3><a href="#"> Quora Pair Similarity Problem</a></h3>
-							</header>
-						
-						</article>
+			<div class="input-group md-form form-sm form-2 pl-0">
+			  <input class="form-control my-0 py-1 red-border" type="text" placeholder="Search" aria-label="Search">
+			  <div class="input-group-append">
+			    <button class="input-group-text red lighten-3" id="basic-text1">
+			    	<span class="lnr lnr-magnifier"></span>
+			    </button>
+			  </div>
+			</div>
 
-						<article>
-							<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-							<header>
-								<h3><a href="#">Personalized Cancer Diagnosis</a></h3>
-							</header>
-							
-						</article>
+		</form>
+	</div>
+	
+</div>	<div class="jumbotron d-flex align-items-center">
+  <div class="container text-center">
+    <h1 class="display-1 mb-4">RO<br>XY</h1>
+  </div>
+  <div class="rectangle-1"></div>
+  <div class="rectangle-2"></div>
+  <div class="rectangle-transparent-1"></div>
+  <div class="rectangle-transparent-2"></div>
+  <div class="circle-1"></div>
+  <div class="circle-2"></div>
+  <div class="circle-3"></div>
+  <div class="triangle triangle-1">
+  	<img src="img/obj_triangle.png" alt="">
+  </div>
+  <div class="triangle triangle-2">
+  	<img src="img/obj_triangle.png" alt="">
+  </div>
+  <div class="triangle triangle-3">
+  	<img src="img/obj_triangle.png" alt="">
+  </div>
+  <div class="triangle triangle-4">
+  	<img src="img/obj_triangle.png" alt="">
+  </div>
+</div>	<!-- Features Section-->
+<section id="features" class="bg-white">
+    <div class="container">
+        <div class="section-content">
+            <!-- Section Title -->
+            <div class="title-wrap mb-5" data-aos="fade-up">
+                <h2 class="section-title">
+                    A template built by <a href="https://gettemplates.co" target="_blank">GetTemplates.co</a>
+                </h2>
+                <p class="section-sub-title">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. <br> pharetra augue. Donec id elit non mi.</p>
+            </div>
+            <!-- End of Section Title -->
+            <div class="row">
+                <!-- Features Holder-->
+                <div class="col-md-10 offset-md-1 features-holder">
+                    <div class="row">
+                        <!-- Features Item -->
+                        <div class="col-md-4 col-sm-12 text-center mt-4">
+                            <div class="shadow rounded feature-item p-4 mb-4" data-aos="fade-up">
+                                <div class="my-4">
+                                    <i class="lnr lnr-cog fs-40"></i>
+                                </div>
+                                <h4>Easy to Customize</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                            </div>
+                            <div class="shadow rounded feature-item p-4 mb-4" data-aos="fade-up">
+                                <div class="my-4">
+                                    <i class="lnr lnr-frame-contract fs-40"></i>
+                                </div>
+                                <h4>Pixel Perfect</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                            </div>
+                        </div>
+                        <!-- End of Feature Item -->
+                        <!-- Features Item -->
+                        <div class="col-md-4 col-sm-12 text-center">
+                            <div class="shadow rounded feature-item p-4 mb-4" data-aos="fade-up">
+                                <div class="my-4">
+                                    <i class="lnr lnr-bubble fs-40"></i>
+                                </div>
+                                <h4>Full Support</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                            </div>
+                            <div class="shadow rounded feature-item p-4 mb-4" data-aos="fade-up">
+                                <div class="my-4">
+                                    <i class="lnr lnr-magic-wand fs-40"></i>
+                                </div>
+                                <h4>Clean Design</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                            </div>
+                        </div>
+                        <!-- End of Feature Item -->
+                        <!-- Features Item -->
+                        <div class="col-md-4 col-sm-12 text-center mt-4">
+                            <div class="shadow rounded feature-item p-4 mb-4" data-aos="fade-up">
+                                <div class="my-4">
+                                    <i class="lnr lnr-clock fs-40"></i>
+                                </div>
+                                <h4>Ontime Project</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                            </div>
+                            <div class="shadow rounded feature-item p-4 mb-4" data-aos="fade-up">
+                                <div class="my-4">
+                                    <i class="lnr lnr-thumbs-up fs-40"></i>
+                                </div>
+                                <h4>Built with SASS</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                            </div>
+                        </div>
+                        <!-- End of Feature Item -->
+                    </div>
+                </div>
+                <!-- End of Features Holder-->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of Features Section-->	<section id="section-featurettes" class="featurettes overlay bg-fixed" style="background-image: url(img/bg.jpg);">
 
-						
+    <div class="container">
+        <div class="section-content">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row align-items-center text-white">
 
-						<article>
-							<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-							<header>
-								<h3><a href="#">Taxi demand prediction</a></h3>
-							</header>
-						</article>
+                        <div class="col-md-4 offset-md-2 col-sm-6" data-aos="fade-right">
+                            <h4 class="mb-4">Capture every moments and share it to all your friends</h4>
+                            <p>Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius blandit sit amet non magna. Cras mattis consectetur purus sit amet.</p>
+                            <button type="button" class="btn btn-outline-primary">FEATURES</button>
+                        </div><!--/ .col-md-4.col-md-offset-2.col-sm-6 -->
 
-						<article>
-							<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-							<header>
-								<h3><a href="#">Stackoverflow tag predictor</a></h3>
-							</header>
-						</article>
+                        <div class="col-md-4 offset-md-right-2 col-sm-6" data-aos="flip-right">
+                            <img class="my-5" src="img/app-profile-mockup.png" alt="">
+                        </div><!--/ .col-md-4.col-md-offset-right-2.col-sm-6 -->
 
-						<article>
-							<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
-							<header>
-								<h3><a href="#">Microsoft Malware Detection</a></h3>
-							</header>
-						</article>
+                    </div><!--/ .featurettes-item -->
 
-						<article>
-							<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
-							<header>
-								<h3><a href="#">Amazon discovery engine</a></h3>
-							</header>
-						</article>
+                </div><!--/ .col-md-12 -->
 
-						
-						<article>
-							<a href="#" class="image featured"><img src="images/pic07.jpg" alt="" /></a>
-							<header>
-								<h3><a href="#">Human Activity Recognition</a></h3>
-							</header>
-						</article>
+            </div><!--/ .row -->
+        </div>
+    </div><!--/ .container -->
 
-						<article>
-							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
-							<header>
-								<h3><a href="#">Self Driving Car using DL</a></h3>
-							</header>
-						</article>
+</section>	<section id="section-featurettes" class="featurettes">
 
-						
-						<article>
-							<a href="#" class="image featured"><img src="images/pic09.jpg" alt="" /></a>
-							<header>
-								<h3><a href="#">Music Generation using DL</a></h3>
-							</header>
-						</article>
+    <div class="container">
+        <div class="section-content">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row align-items-center">
 
-						<article>
-							<a href="#" class="image featured"><img src="images/pic10.jpg" alt="" /></a>
-							<header>
-								<h3><a href="#">Facebook Recommendation</a></h3>
-							</header>
-						</article>
+                        <div class="col-md-4 offset-md-2 col-sm-6" data-aos="flip-left">
+                            <img class="my-5" src="img/app-profile-mockup.png" alt="">
+                        </div><!--/ .col-md-4.col-md-offset-right-2.col-sm-6 -->
 
-						<article>
-							<a href="#" class="image featured"><img src="images/pic11.jpg" alt="" /></a>
-							<header>
-								<h3><a href="#">Netflix  Recommendation </a></h3>
-							</header>
-						</article>
+                        <div class="col-md-4 offset-md-right-2 col-sm-6" data-aos="fade-left">
+                            <h4 class="mb-4">Capture every moments and share it to all your friends</h4>
+                            <p>Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius blandit sit amet non magna. Cras mattis consectetur purus sit amet.</p>
+                            <div class="progress mb-3">
+                                <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">HTML5 95%</div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">CSS3 90%</div>
+                            </div>
+                        </div><!--/ .col-md-4.col-md-offset-2.col-sm-6 -->
 
-						
-						
-					</div>
-					
-				
-					
-				</section>
-				
-			 </section>
-			 
-			<!-- Main -->
-				<div class="wrapper style2">
+                    </div><!--/ .featurettes-item -->
 
-					<article id="main" class="container special">
-						<a href="#" class="image left"><img src="images/profile.jpg" alt="" /></a>
-						<header>
-							<h2><a href="#"></br>About Me </a></h2>
-							<p>
-								<blockquote>
-								My name is Shikhar Vardhan, an aspiring Data Scientist with a background in Computer engineering. Getting insights out of data is something that I really like. Data visualization and machine learning are some techniques that I am using to achieve this .I have a passion for (endurance) sports and healthy living and I would love to help you out if you have a project in those areas! On my website you can find some examples of my projects, most of them are links to my github or interactive visualization.
-								A few interesting things about me. I love to do speedcubing (my lowest is 29.9 seconds).
-								. I have currently finished my Bachelor's in Computer Science at Chandigarh University , after which I am searching for Data Science and Machine Learning positions in Delhi, Noida, and Gurgaon.
-							</blockquote>
-								
-							<br>
-							</p>
-						</header>
-						<p>
-							
-						</p>
-						<footer>
-							<a href="#" class="button">My Resume</a>
-						</footer>
-					</article>
+                </div><!--/ .col-md-12 -->
 
-				</div>
+            </div><!--/ .row -->
+        </div>
+    </div><!--/ .container -->
 
-			<!-- Features -->
-				<div class="wrapper style1">
+</section>	<!-- Testimonial Section-->
+<section id="testimonial" class="section-padding bg-fixed bg-white overlay" style="background-image: url(img/bg-white.jpg);">
+    <div class="container">
+        <div class="section-content" data-aos="fade-up">
+            <div class="heading-section text-center">
+                <h2>
+                    User Testimonials
+                </h2>
+            </div>
+            <div class="row">
+                <!-- Testimonial -->
+                <div class="testi-content testi-carousel owl-carousel">
+                    <div class="testi-item text-center">
+                        <i class="testi-icon fa fa-3x fa-quote-left"></i>
+                        <h4 class="testi-text"><b>ROXY</b> is best theme i used so far.<br> It’s ideal for guys without coding knowledge like me!</h4>
+                        <div class="testi-meta-inner d-flex justify-content-center align-items-center">
+                            <div class="testi-img mr-2">
+                                <img src="img/testi-1.jpg" alt="">
+                            </div>
+                            <div class="testi-details">
+                                <p class="testi-author mb-0 font-weight-bolder">John Doe</p>
+                                <p class="testi-desc mb-0">Web Designer</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="testi-item text-center">
+                        <i class="testi-icon fa fa-3x fa-quote-left"></i>
+                        <h4 class="testi-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci <br> non doloribus ut, alias doloremque perspiciatis.</h4>
+                        <div class="testi-meta-inner d-flex justify-content-center align-items-center">
+                            <div class="testi-img mr-2">
+                                <img src="img/testi-1.jpg" alt="">
+                            </div>
+                            <div class="testi-details">
+                                <p class="testi-author mb-0 font-weight-bolder">John Doe</p>
+                                <p class="testi-desc mb-0">Web Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="testi-item text-center">
+                        <i class="testi-icon fa fa-3x fa-quote-left"></i>
+                        <h4 class="testi-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci <br> non doloribus ut, alias doloremque perspiciatis.</h4>
+                        <div class="testi-meta-inner d-flex justify-content-center align-items-center">
+                            <div class="testi-img mr-2">
+                                <img src="img/testi-1.jpg" alt="">
+                            </div>
+                            <div class="testi-details">
+                                <p class="testi-author mb-0 font-weight-bolder">John Doe</p>
+                                <p class="testi-desc mb-0">Web Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Testimonial -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of Testimonial Section-->	<!-- Portfolio Section -->
+<section id="portfolio" class="bg-white">
+    <div class="container">
+        <div class="section-content">
+            <!-- Section Title -->
+            <div class="title-wrap">
+                <h2 class="section-title">Our <b>Awesome</b> Works</h2>
+                <p class="section-sub-title">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. <br> pharetra augue. Donec id elit non mi.</p>
+            </div>
+            <!-- End of Section Title -->
+            <div class="row">
+                <!-- Portfolio Holder -->
+                <div class="col-md-12 portfolio-holder mt-3">
+                    <!-- Btn Filter -->
+                    <div class="filter-button-group btn-filter d-flex justify-content-center">
+                        <a tabindex="0" class="is-checked" data-filter="*">Show All</a>
+                        <a tabindex="0" data-filter=".minimalism">Minimalism</a>
+                        <a tabindex="0" data-filter=".vintage">Vintage</a>
+                        <a tabindex="0" data-filter=".creative">Creative</a>
+                    </div>
+                    <!-- End of Btn Filter -->
+                    <!-- Portfolio Content -->
+                    <div class="grid-portfolio">
+                        <div class="grid-sizer"></div>
+                        <div class="gutter-sizer"></div>
+                        <!-- Portfolio Item -->
+                        <div class="grid-item minimalism" data-aos="fade-up">
+                            <div class="grid-item-wrapper">
+                                <img src="img/photo-1.jpg" alt="portfolio-img" class="portfolio-item">
+                                <div class="grid-info">
+                                    <div class="grid-link d-flex justify-content-center">
+                                        <a class="img-pop" data-rel="lightcase" href="img/photo-1.jpg" title="Photo-1">
+                                            <span class="lnr lnr-move"></span>
+                                        </a>
+                                        <a class="ext-link" href="https://unsplash.com/" target="_blank">
+                                            <span class="lnr lnr-link"></span>
+                                        </a>
+                                    </div>
+                                    <div class="grid-title">
+                                        <h4>Camera</h4>
+                                    </div>
+                                </div>
 
-					<section id="features" class="container special">
-						<header>
-							<h2>My Blogs on Machine Learning and Deep Learning</h2>
-							<p>.</p>
-						</header>
-						<div class="row">
+                            </div>
+                        </div>
+                        <!-- End of Portfolio Item -->
+                        <!-- Portfolio Item -->
+                        <div class="grid-item vintage" data-aos="fade-up">
+                            <div class="grid-item-wrapper">
+                                <img src="img/photo-6.jpg" alt="portfolio-img" class="portfolio-item">
+                                <div class="grid-info">
+                                    <div class="grid-link d-flex justify-content-center">
+                                        <a class="img-pop" data-rel="lightcase" href="img/photo-6.jpg" title="Ship">
+                                            <span class="lnr lnr-move"></span>
+                                        </a>
+                                        <a class="ext-link" href="https://unsplash.com/" target="_blank">
+                                            <span class="lnr lnr-link"></span>
+                                        </a>
+                                    </div>
+                                    <div class="grid-title">
+                                        <h4>Flower</h4>
+                                    </div>
+                                </div>
 
-                           <article class="col-4 col-12-mobile special">
-								<a href="#" class="image featured"><img src="images/b2.jpg" alt="" /></a>
-								<header>
-									<h3><a href="#">How machine learning models works a beginner's guide…??
-									</a></h3>
-								</header>
-								<p>
-									We’ll start with an overview of how machine learning models work and how they are used. 
-									This may feel basic if you’ve done statistical modeling or machine learning before.The best way to
-								    learn Something is by doing so lets look at the problem statement. and how we can use a machine learning model to predict
-									some values
-								</p>
-							</article>
+                            </div>
+                        </div>
+                        <!-- End of Portfolio Item -->
+                        <!-- Portfolio Item -->
+                        <div class="grid-item creative grid-item-height" data-aos="fade-up">
+                            <div class="grid-item-wrapper">
+                                <img src="img/photo-2.jpg" alt="portfolio-img" class="portfolio-item">
+                                <div class="grid-info">
+                                    <div class="grid-link d-flex justify-content-center">
+                                        <a class="img-pop" data-rel="lightcase" href="img/photo-2.jpg" title="Tracy Portrait">
+                                            <span class="lnr lnr-move"></span>
+                                        </a>
+                                        <a class="ext-link" href="https://unsplash.com/" target="_blank">
+                                            <span class="lnr lnr-link"></span>
+                                        </a>
+                                    </div>
+                                    <div class="grid-title">
+                                        <h4>Breakfast</h4>
+                                    </div>
+                                </div>
 
-							<article class="col-4 col-12-mobile special">
-								<a href="#" class="image featured"><img src="images/b1.jpg" alt="" /></a>
-								<header>
-									<h3><a href="#">Under-fitting and Over-fitting Simplified</a></h3>
-								</header>
-								<p>
-									If i had to sum up under fitting and over fitting into 2 lines</br> it would be
-                                    Over fitting: Good performance on the training data, poor generalization to other data.
-                                    Under fitting: Poor performance on the training data and poor generalization to other data
-                                    Easy-peasy right..!!
-                                    Now lets just learn it through a decision tree model.
-								</p>
-							</article>
-							
-							<article class="col-4 col-12-mobile special">
-								<a href="#" class="image featured"><img src="images/b3.jpg" alt="" /></a>
-								<header>
-									<h3><a href="#">Top 5 Data Science Trends In 2020</a></h3>
-								</header>
-								<p>
-									Technology is constantly evolving, and so are we. 
-									There will be massive growth in Artificial Intelligence and Machine Learning over the next few years. 
-									There is already a significant amount of data to manage, and with new technological advances, 
-									we can use big data in many ways. To do this,
-									 we need to keep up to date with the top 5 data science trends in 2020.
-								</p>
-								
-							</article>
-							
-						</div>
-					</section>
+                            </div>
+                        </div>
+                        <!-- End of Portfolio Item -->
+                        <!-- Portfolio Item -->
+                        <div class="grid-item creative" data-aos="fade-up">
+                            <div class="grid-item-wrapper">
+                                <img src="img/photo-7.jpg" alt="portfolio-img" class="portfolio-item">
+                                <div class="grid-info">
+                                    <div class="grid-link d-flex justify-content-center">
+                                        <a class="img-pop" data-rel="lightcase" href="img/photo-7.jpg" title="Guitar">
+                                            <span class="lnr lnr-move"></span>
+                                        </a>
+                                        <a class="ext-link" href="https://unsplash.com/" target="_blank">
+                                            <span class="lnr lnr-link"></span>
+                                        </a>
+                                    </div>
+                                    <div class="grid-title">
+                                        <h4>Chair</h4>
+                                    </div>
+                                </div>
 
-				</div>
+                            </div>
+                        </div>
+                        <!-- End of Portfolio Item -->
+                        <!-- Portfolio Item -->
+                        <div class="grid-item vintage" data-aos="fade-up">
+                            <div class="grid-item-wrapper">
+                                <img src="img/photo-4.jpg" alt="portfolio-img" class="portfolio-item">
+                                <div class="grid-info">
+                                    <div class="grid-link d-flex justify-content-center">
+                                        <a class="img-pop" data-rel="lightcase" href="img/photo-4.jpg" title="Bookself">
+                                            <span class="lnr lnr-move"></span>
+                                        </a>
+                                        <a class="ext-link" href="https://unsplash.com/" target="_blank">
+                                            <span class="lnr lnr-link"></span>
+                                        </a>
+                                    </div>
+                                    <div class="grid-title">
+                                        <h4>Hidden Book</h4>
+                                    </div>
+                                </div>
 
-			<!-- Footer -->
-				<div id="footer">
-					<div class="container">
-						<div class="row">
+                            </div>
+                        </div>
+                        <!-- End of Portfolio Item -->
+                        <!-- Portfolio Item -->
+                        <div class="grid-item creative" data-aos="fade-up">
+                            <div class="grid-item-wrapper">
+                                <img src="img/photo-9.jpg" alt="portfolio-img" class="portfolio-item">
+                                <div class="grid-info">
+                                    <div class="grid-link d-flex justify-content-center">
+                                        <a class="img-pop" data-rel="lightcase" href="img/photo-9.jpg" title="Guitar">
+                                            <span class="lnr lnr-move"></span>
+                                        </a>
+                                        <a class="ext-link" href="https://unsplash.com/" target="_blank">
+                                            <span class="lnr lnr-link"></span>
+                                        </a>
+                                    </div>
+                                    <div class="grid-title">
+                                        <h4>Red</h4>
+                                    </div>
+                                </div>
 
-							<!-- Tweets -->
-								<section class="col-4 col-12-mobile">
-									<header>
-										
-									</header>
-									
-								</section>
+                            </div>
+                        </div>
+                        <!-- End of Portfolio Item -->
+                    </div>
+                    <!-- End of Portfolio Content -->
+                </div>
+                <!-- End of Portfolio Holder -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of Portfolio Section -->	<!-- Client Section -->
+<section id="client" class="overlay bg-fixed" style="background-image: url(img/bg.jpg);">
+    <div class="container">
+        <div class="section-content" data-aos="fade-up">
+            <div class="row ">
+                <div class="col-md-12">
+                    <!-- Section Title -->
+                    <div class="title-wrap mb-5">
+                        <h2>Who love to <span> work</span> with us</h2>
+                    </div>
+                    <!-- End of Section Title -->
+                </div>
+                <!-- Client Holder -->
+                <div class="col-md-12 client-holder">
+                    <div class="client-slider owl-carousel">
+                        <div class="client-item">
+                            <img class="img-responsive" src="img/client.png" alt=" ">
+                        </div>
+                        <div class="client-item">
+                            <img class="img-responsive" src="img/client.png" alt=" ">
+                        </div>
+                        <div class="client-item">
+                            <img class="img-responsive" src="img/client.png" alt=" ">
+                        </div>
+                        <div class="client-item">
+                            <img class="img-responsive" src="img/client.png" alt=" ">
+                        </div>
+                        <div class="client-item">
+                            <img class="img-responsive" src="img/client.png" alt=" ">
+                        </div>
+                        <div class="client-item">
+                            <img class="img-responsive" src="img/client.png" alt=" ">
+                        </div>
+                    </div>
+                    <!-- End of Client Holder -->
+                </div>
+            </div>
+        </div>
+</section>
+<!-- End of Client Section -->	<!-- Reservation Section -->
+<section id="reservation" class="bg-white section-content">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-5 offset-lg-1 mb-5 mb-lg-0" data-aos="fade-right">
+                <div class="bg-white p-5 shadow">
+                    <div class="heading-section text-center">
+                        <h2 class="mb-4">
+                            Contact Us
+                        </h2>
+                    </div>
+                    <form method="post" name="contact-us" action="">
+                        <div class="row">
+                            <div class="col-md-12 form-group">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <input type="text" class="form-control" id="email" name="email" placeholder="Email">
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <input type="number" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="Phone">
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <input type="text" class="form-control" id="websiteUrl" name="websiteUrl" placeholder="Website">
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <textarea class="form-control" id="message" name="message" rows="6" placeholder="Your Message ..."></textarea>
+                            </div>
+                            <div class="col-md-12 text-center">
+                                <button class="btn btn-primary btn-shadow btn-lg" type="submit" name="submit">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-lg-4 offset-lg-1" data-aos="fade-left">
+                <h2 class="mb-4">
+                    Best solution to create any website. Pay once.
+                </h2>
+                <p class="mb-4">I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
 
-							<!-- Posts -->
-								<section class="col-4 col-12-mobile">
-									<header>
-										
-									</header>
-									
-								</section>
+                <ul class="list-inline py-2">
+                    <li class="list-inline-item text-center">
+                        <span class="lnr fs-40 lnr-rocket"></span>
+                        <p>Fast delivery</p>
+                    </li>
+                    <li class="list-inline-item text-center">
+                        <span class="lnr fs-40 lnr-magic-wand"></span>
+                        <p>Awesome design</p>
+                    </li>
+                    <li class="list-inline-item text-center">
+                        <span class="lnr fs-40 lnr-cog"></span>
+                        <p>Easy to customize</p>
+                    </li>
+                </ul>
 
-							<!-- Photos -->
-								<section class="col-4 col-12-mobile">
-									<header>
-										
-									</header>
-								
-									</div>
-								</section>
-
-						</div>
-						<hr />
-						<div class="row">
-							<div class="col-12">
-
-								<!-- Contact -->
-									<section class="contact">
-										<header>
-											
-										</header>
-										
-										<ul class="icons">
-											<li><h3><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></h3></li>
-											<li><h3><a href="#" class="icon brands fa-kaggle"><span class="label">Facebook</span></a></h3></li>
-											<li><h3><a href="#" class="icon brands fa-google"><span class="label">Google</span></a></h3></li>
-											<li><h3><a href="#" class="icon brands fa-medium"><span class="label">Medium</span></a></h3></li>
-											<li><h3><a href="#" class="icon brands fa-linkedin-in"><span class="label">Linkedin</span></a></h3></li>
-											<li><h3><a href="#" class="icon brands fa-dropbox"><span class="label">Dropbox</span></a></h3></li>
-										</ul>
-									</section>
-
-								<!-- Copyright -->
-									<div class="copyright">
-										<ul class="menu">
-											<li>&copy; Untitled. All rights reserved.</li><li>Design: Shikhar Vardhan</a></li>
-										</ul>
-									</div>
-
-							</div>
-
-						</div>
-					</div>
-				</div>
-
-		</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+                <a href="#" class="btn btn-link p-0">
+                    <span>PURCHASE NOW</span>
+                    <span class="lnr lnr-arrow-right"></span>
+                </a>
+            </div>
+        </div>
+        
+    </div>
+</section>
+<!-- End of Reservation Section -->	<!-- Features Section-->
+<section id="cta" class="bg-fixed overlay" style="background-image: url(img/bg.jpg);">
+    <div class="container">
+        <div class="section-content" data-aos="fade-up">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="mb-2">Make a beautiful website, or million of them</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, veritatis qui eligendi delectus quia fuga!</p>
+                    <a class="btn btn-outline-primary btn-lg">FEATURES</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of Features Section--></div>
+<footer class="mastfoot my-3">
+    <div class="inner container">
+         <div class="row">
+         	<div class="col-lg-4 col-md-12 d-flex align-items-center">
+         		
+         	</div>
+         	<div class="col-lg-4 col-md-12 d-flex align-items-center">
+         		<p class="mx-auto text-center mb-0">&copy; 2019 Roxy. Design by <a href="https://gettemplates.co" target="_blank">GetTemplates</a>.</p>
+         	</div>
+           
+            <div class="col-lg-4 col-md-12">
+            	<nav class="nav nav-mastfoot justify-content-center">
+	                <a class="nav-link" href="#">
+	                	<i class="fab fa-facebook-f"></i>
+	                </a>
+	                <a class="nav-link" href="#">
+	                	<i class="fab fa-twitter"></i>
+	                </a>
+	                <a class="nav-link" href="#">
+	                	<i class="fab fa-instagram"></i>
+	                </a>
+	                <a class="nav-link" href="#">
+	                	<i class="fab fa-linkedin"></i>
+	                </a>
+	                <a class="nav-link" href="#">
+	                	<i class="fab fa-youtube"></i>
+	                </a>
+	            </nav>
+            </div>
+            
+        </div>
+    </div>
+</footer>	<!-- External JS -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+	<script src="vendor/bootstrap/popper.min.js"></script>
+	<script src="vendor/bootstrap/bootstrap.min.js"></script>
+	<script src="vendor/select2/select2.min.js "></script>
+	<script src="vendor/owlcarousel/owl.carousel.min.js"></script>
+	<script src="vendor/stellar/jquery.stellar.js" type="text/javascript" charset="utf-8"></script>
+	<script src="vendor/isotope/isotope.min.js"></script>
+	<script src="vendor/lightcase/lightcase.js"></script>
+	<script src="vendor/waypoints/waypoint.min.js"></script>
+	 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	 
+	<!-- Main JS -->
+	<script src="js/app.min.js "></script>
+	<script src="//localhost:35729/livereload.js"></script>
+</body>
 </html>
